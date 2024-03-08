@@ -48,10 +48,10 @@ root.geometry("400x200")
 root.configure(bg="sea green")  
 
 def quit_program():
-    if messagebox.askokcancel("Exit", "Are you sure you want to quit this program?"):
+    if messagebox.askokcancel("Quit", "Are you sure you want to quit this program?"):
         root.quit()
 
-quit_button = tk.Button(root, text="EXIT", command=quit_program)
+quit_button = tk.Button(root, text="QUIT", command=quit_program)
 quit_button.pack()
 
 # end UI
